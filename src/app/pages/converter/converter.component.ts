@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { TimeZoneResponse } from 'src/app/response/timeZoneResponse';
 import { RequestTime } from 'src/app/_model/requestTime';
-import { RequestService } from 'src/app/_service/_service/request.service';
+import { RequestService } from 'src/app/_service/request.service';
 
 @Component({
   selector: 'app-converter',

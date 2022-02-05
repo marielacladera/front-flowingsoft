@@ -11,3 +11,5 @@ Version Angular Material: 13.2.1
 Version TypeScript: 4.4.3
 
 Considerations: It was considered that timezone maxim +12 and the minum -12 
+
+Please execute: nmp install

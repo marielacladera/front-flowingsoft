@@ -1,0 +1,28 @@
+<header color="primary"></header>
+
+<div class="example-container">
+    <mat-card class="example-card">
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title>Convert Local Time to UTC</mat-card-title>
+        </mat-card-header>
+
+        <mat-card-content>
+            <mat-form-field class="example-full-width" appearance="fill">
+                <mat-label>Time</mat-label>
+                <input matInput type="time" step="1" [(ngModel)]="time" required>
+            </mat-form-field>
+
+            <mat-form-field class="example-full-width" appearance="fill">
+                <mat-label>TimeZone</mat-label>
+                <input matInput type="text"  [(ngModel)]="timeZone" required>
+            </mat-form-field>
+        </mat-card-content>
+
+        <mat-card-actions>
+            <button class="example-full-width" mat-raised-button color="primary" (click)="convertTime()">
+                <span>Convert Time</span>
+            </button>
+        </mat-card-actions>
+    </mat-card>   
+</div>
